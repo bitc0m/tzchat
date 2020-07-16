@@ -14,28 +14,15 @@ cd tzchat
 ```
 
 ## Set config 
-Change baseURL=tzchat=tzchat to your github site
+Change baseURL in config.toml to your deployment site
 ```
-echo "baseURL=tzchat=tzchat = 'https://bitc0m.github.io/tzchat'" >> ./config.toml
+baseURL="https://bitc0m.github.io/tzchat"
 ```
-Add publish directory to config.toml
-```
-publishDir = "docs"
-```
- 
+
 ## Build submodules
 Get the submodules.
 ```
-git submodule add -b master "git@work.github.com:bitc0m/tzchat-pages.git" public
-git checkout --orphan gh-pages
-git reset --hard
-git commit --allow-empty -m "Initializing gh-pages branch"
-git push upstream gh-pages
-git checkout master
-rm -rf public
-git worktree add -B gh-pages public origin/gh-pages
- hugo
- cd public && git add --all && git commit -m "Publishing to gh-pages" && cd ..
+
 
 git submodule update --init --recursive
 ```

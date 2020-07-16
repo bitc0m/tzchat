@@ -1,4 +1,4 @@
-name: github pages
+name: Publish Site
 
 on:
   push:
@@ -7,21 +7,19 @@ on:
 
 jobs:
   build-deploy:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
+
     steps:
-    - uses: actions/checkout@master
-
-    - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2.2.0
-      with:
-        hugo-version: 'latest'
-
-    - name: Build
-      run: hugo --gc --minify --cleanDestinationDir
-
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v2.4.0
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        PUBLISH_BRANCH: gh-pages
-        PUBLISH_DIR: ./public
+      - name: Checkout Repo
+        uses: actions/checkout@master
+        with:
+          submodules: true
+      - name: Publish Site
+        uses: chabad360/hugo-gh-pages@master
+        with:
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
+          cname: staging.tzchat.org
+          branch: gh-pages 
+          repo: bitc0m/tzchat
+          args: --gc --minify --cleanDestinationDir
+          siteDir: /public
