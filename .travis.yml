@@ -1,5 +1,6 @@
+os: linux
 dist: xenial
-sudo: true
+language: golang
 install:
   - curl -LO https://github.com/gohugoio/hugo/releases/download/v0.74.1/hugo_0.74.1_Linux-64bit.deb
   - sudo dpkg -i hugo_extended_0.74.1_Linux-64bit.deb
@@ -12,8 +13,6 @@ deploy:
   provider: pages
   cleanup: true
   strategy: git
-  os: linux
-  language: go
   github_token: $GITHUB_TOKEN
   keep_history: true
   local_dir: ../generated
