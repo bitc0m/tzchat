@@ -1,27 +1,18 @@
-os: osx
-before_install:
-- brew install git-lfs
-before_script:
-- git lfs pull
-addons:
-  apt:
-    packages:
-    - python-pygments
+dist: bionic
+sudo: true
 install:
-- rm -rf public || exit 0
+  - curl -LO https://github.com/gohugoio/hugo/releases/download/v0.74.1/hugo_0.74.1_Linux-64bit.deb
+  - sudo dpkg -i hugo_extended_0.74.1_Linux-64bit.deb
 script:
-- "./binaries/hugo"
+  - git submodule update --init
+  - git submodule update --remote --merge
+  - hugo -d ../generated
+  
 deploy:
   provider: pages
-  skip_cleanup: true
-  local_dir: public
-  github_token: "$GITHUB_TOKEN"
+  cleanup: true
+  github_token: $GITHUB_TOKEN
+  keep_history: true
+  local_dir: ../generated
   on:
     branch: master
-env:
-  global:
-    secure: UDaDuhKfJcHDYo+3j6iSCMebG5RTZqsVKsxHDKQ+9tUbj5cpjaHd3jK6fEQm2w5eA68mypZ6XLDhVrW/NcXF7IKnnKGOV6agfse/I4ABCQ9r7M8BGDt2ps0WTrkZUvp0FdxiYLfhIH3zFeD5CVJ8O/2JgB8g3gsW6YFg9bTLKZF73u/RrziUIgndsyFtUwNVn9SJPXG0G5UlCKVDgaDVZ936KYqXL2JL/ss47Uo4lqKLmG8387OxwEdhL5lnJOxnjI15OKvA3e2TVuiWdVxQdxh4dX8xohdxO0+C/2+sOvVjT9KEtXt7YYPgx/35I3545rwP11fMZV2tw1l6nSmGDImjNG263mxUMi5UEBvY5H+uPwc+YvNQmKak+69iYURZYBNCqXmQZx7k2XqfaOrVqJVYwtjIFOsvAr5E7gYRFzosN1dMxpamHeq92V0d2eQrIeKtpTW6ceG/nhSTGjyryMrzDldYPJ8JvjPu81Iu1CSCfklW4ESo0NSPdjOs7OMAB6vN5Qg0oqnT3xn3VzZ6sa95ir/lGwe81EWxl+PYH+x9T+cpw15vvFLP7uOT2nhuk/DJgHnotP95+GDDT6OkyBCb/w1Cl4+vtpk1ps11NfsRIuUQuAnCsClYdeOtxYZ/PAw39szsvsFjjkb+IdGfk7FjtvdY1OxIa/BeB0LyVT0=
-branches:
-  only:
-  - gh-pages
-  - /.*/
