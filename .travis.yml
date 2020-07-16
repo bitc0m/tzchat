@@ -1,4 +1,4 @@
-dist: bionic
+dist: xenial
 sudo: true
 install:
   - curl -LO https://github.com/gohugoio/hugo/releases/download/v0.74.1/hugo_0.74.1_Linux-64bit.deb
@@ -11,6 +11,9 @@ script:
 deploy:
   provider: pages
   cleanup: true
+  strategy: git
+  os: linux
+  language: go
   github_token: $GITHUB_TOKEN
   keep_history: true
   local_dir: ../generated
