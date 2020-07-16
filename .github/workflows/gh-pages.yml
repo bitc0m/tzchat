@@ -22,4 +22,3 @@ jobs:
           branch: gh-pages 
           repo: bitc0m/tzchat
           args: --gc --minify --cleanDestinationDir
-          siteDir: /github/workspace/public
