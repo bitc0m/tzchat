@@ -1,86 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Tezos Chat Rooms on TzChat</title>
-    <link>https://staging.tzchat.org/</link>
-    <description>Recent content in Tezos Chat Rooms on TzChat</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 24 Apr 2020 11:30:24 -0500</lastBuildDate>
-    
-	<atom:link href="https://staging.tzchat.org/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Tezos Rooms Upgrade</title>
-      <link>https://staging.tzchat.org/posts/upgrade-room/</link>
-      <pubDate>Fri, 24 Apr 2020 11:30:24 -0500</pubDate>
-      
-      <guid>https://staging.tzchat.org/posts/upgrade-room/</guid>
-      <description>Tezos rooms upgraded at Matrix/Riot As of May, 2020, several Tezos rooms at Matrix/Riot are being replaced with new versions (at the same addresses as before) that use the latest room protocol.
-TL;DR: If you visit an old Tezos room and see a message about &amp;ldquo;This room has been replaced and is no longer active&amp;rdquo;, click the link that says &amp;ldquo;The conversation continues here&amp;rdquo; to get to the new room.</description>
-    </item>
-    
-    <item>
-      <title>Riot-develop</title>
-      <link>https://staging.tzchat.org/pages/riot-dev/</link>
-      <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://staging.tzchat.org/pages/riot-dev/</guid>
-      <description>The team developing the Riot app for Matrix regularly make a beta version with new features, improvements, and fixes available as a web app1 at https://riot.im/develop
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tezos Chat Rooms on TzChat</title><link>https://staging.tzchat.org/</link><description>Recent content in Tezos Chat Rooms on TzChat</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 24 Apr 2020 11:30:24 -0500</lastBuildDate><atom:link href="https://staging.tzchat.org/index.xml" rel="self" type="application/rss+xml"/><item><title>Tezos Rooms Upgrade</title><link>https://staging.tzchat.org/posts/upgrade-room/</link><pubDate>Fri, 24 Apr 2020 11:30:24 -0500</pubDate><guid>https://staging.tzchat.org/posts/upgrade-room/</guid><description>Tezos rooms upgraded at Matrix/Riot As of May, 2020, several Tezos rooms at Matrix/Riot are being replaced with new versions (at the same addresses as before) that use the latest room protocol.
+TL;DR: If you visit an old Tezos room and see a message about &amp;ldquo;This room has been replaced and is no longer active&amp;rdquo;, click the link that says &amp;ldquo;The conversation continues here&amp;rdquo; to get to the new room.</description></item><item><title>Riot-develop</title><link>https://staging.tzchat.org/pages/riot-dev/</link><pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate><guid>https://staging.tzchat.org/pages/riot-dev/</guid><description>The team developing the Riot app for Matrix regularly make a beta version with new features, improvements, and fixes available as a web app1 at https://riot.im/develop
 Just login there with your usual Matrix username and password. If you have a tzchat.org account (or any non-matrix.org account) you should use your full Matrix username2 as username, something like @myusername:tzchat.org.
-Once logged in, open up user settings (click your name at upper left and then choose Settings), click the Labs tab, and select beta features to enable by moving their control slider to green status.</description>
-    </item>
-    
-    <item>
-      <title>Get started with TzChat.org and Riot</title>
-      <link>https://staging.tzchat.org/pages/get-started/</link>
-      <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://staging.tzchat.org/pages/get-started/</guid>
-      <description>Register for a tzchat.org account. Visit https://riot.tzchat.org and click Create Account.
+Once logged in, open up user settings (click your name at upper left and then choose Settings), click the Labs tab, and select beta features to enable by moving their control slider to green status.</description></item><item><title>Get started with TzChat.org and Riot</title><link>https://staging.tzchat.org/pages/get-started/</link><pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate><guid>https://staging.tzchat.org/pages/get-started/</guid><description>Register for a tzchat.org account. Visit https://riot.tzchat.org and click Create Account.
 Fill in the &amp;ldquo;Create your account&amp;rdquo; form. Choose your username carefully as others can see it and you will not be able to change it.1 Entering an email address2 is optional but if you forget your password the only way to recover it is via email. Click the Register button.
-If you provided an email address above, check for a welcome message and follow the verification link provided there.</description>
-    </item>
-    
-    <item>
-      <title>Riot FAQ</title>
-      <link>https://staging.tzchat.org/pages/riot-faq/</link>
-      <pubDate>Wed, 12 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://staging.tzchat.org/pages/riot-faq/</guid>
-      <description>How do I get rid of the pane on the left with the community stuff? Disable the Enable Community Filter Panel setting in Settings &amp;gt; Preferences, then visit Settings &amp;gt; Help &amp;amp; About and click the Clear Cache and Reload button.
-How do I change Riot settings? For the web and desktop apps, user settings are found by clicking ones display name (at upper left) and then clicking Settings, which leads to a page of user settings that apply across all rooms.</description>
-    </item>
-    
-    <item>
-      <title>TzChat Matrix/Riot FAQ</title>
-      <link>https://staging.tzchat.org/pages/tzchat-faq/</link>
-      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://staging.tzchat.org/pages/tzchat-faq/</guid>
-      <description>Can I just move my existing matrix.org account to tzchat.org? No, sorry. The Matrix protocol does not currently provide portable accounts. Instead, each account is tied to the &amp;ldquo;homeserver&amp;rdquo; (so called) used to access the Matrix federation. In this respect a matrix account is similar to an email account in that it&amp;rsquo;s tied to the particular domain of the account. For most Tezos people already using Matrix their homeserver is matrix.</description>
-    </item>
-    
-    <item>
-      <title>TzChat.org goes live</title>
-      <link>https://staging.tzchat.org/posts/tzchat-goes-live/</link>
-      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://staging.tzchat.org/posts/tzchat-goes-live/</guid>
-      <description>The Riot/Matrix services for tzchat.org accounts are now available for friendly users. The services are still being configured and tuned and so there may be rough edges, but tzchat.org accounts created now should remain indefinitely.
-One quirk is that the entry pages refer to &amp;ldquo;tezos.modular.im&amp;rdquo; rather that &amp;ldquo;tzchat.org&amp;rdquo;. Our service is hosted by modular.im and tezos.modular.im is the actual &amp;ldquo;homeserver&amp;rdquo; host for tzchat.org accounts. We are working to change the pages to hide that internal name.</description>
-    </item>
-    
-    <item>
-      <title>tzchat.org Riot/Matrix service</title>
-      <link>https://staging.tzchat.org/pages/tzchat/</link>
-      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://staging.tzchat.org/pages/tzchat/</guid>
-      <description>Thanks to a grant from the Tezos Foundation the Tezos community has a Riot (Matrix) server at tzchat.org of its own. Riot accounts homed on that server are likely to have faster response times compared to the overloaded servers1 for matrix.org accounts.
-To register a new account at tzchat.org, visit the entry page and use Create Account. Providing an email address there will allow you to reset your password later, but that&amp;rsquo;s optional.</description>
-    </item>
-    
-  </channel>
-</rss>
+If you provided an email address above, check for a welcome message and follow the verification link provided there.</description></item><item><title>Riot FAQ</title><link>https://staging.tzchat.org/pages/riot-faq/</link><pubDate>Wed, 12 Jun 2019 00:00:00 +0000</pubDate><guid>https://staging.tzchat.org/pages/riot-faq/</guid><description>How do I get rid of the pane on the left with the community stuff? Disable the Enable Community Filter Panel setting in Settings &amp;gt; Preferences, then visit Settings &amp;gt; Help &amp;amp; About and click the Clear Cache and Reload button.
+How do I change Riot settings? For the web and desktop apps, user settings are found by clicking ones display name (at upper left) and then clicking Settings, which leads to a page of user settings that apply across all rooms.</description></item><item><title>TzChat Matrix/Riot FAQ</title><link>https://staging.tzchat.org/pages/tzchat-faq/</link><pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate><guid>https://staging.tzchat.org/pages/tzchat-faq/</guid><description>Can I just move my existing matrix.org account to tzchat.org? No, sorry. The Matrix protocol does not currently provide portable accounts. Instead, each account is tied to the &amp;ldquo;homeserver&amp;rdquo; (so called) used to access the Matrix federation. In this respect a matrix account is similar to an email account in that it&amp;rsquo;s tied to the particular domain of the account. For most Tezos people already using Matrix their homeserver is matrix.</description></item><item><title>TzChat.org goes live</title><link>https://staging.tzchat.org/posts/tzchat-goes-live/</link><pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate><guid>https://staging.tzchat.org/posts/tzchat-goes-live/</guid><description>The Riot/Matrix services for tzchat.org accounts are now available for friendly users. The services are still being configured and tuned and so there may be rough edges, but tzchat.org accounts created now should remain indefinitely.
+One quirk is that the entry pages refer to &amp;ldquo;tezos.modular.im&amp;rdquo; rather that &amp;ldquo;tzchat.org&amp;rdquo;. Our service is hosted by modular.im and tezos.modular.im is the actual &amp;ldquo;homeserver&amp;rdquo; host for tzchat.org accounts. We are working to change the pages to hide that internal name.</description></item><item><title>tzchat.org Riot/Matrix service</title><link>https://staging.tzchat.org/pages/tzchat/</link><pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate><guid>https://staging.tzchat.org/pages/tzchat/</guid><description>Thanks to a grant from the Tezos Foundation the Tezos community has a Riot (Matrix) server at tzchat.org of its own. Riot accounts homed on that server are likely to have faster response times compared to the overloaded servers1 for matrix.org accounts.
+To register a new account at tzchat.org, visit the entry page and use Create Account. Providing an email address there will allow you to reset your password later, but that&amp;rsquo;s optional.</description></item></channel></rss>

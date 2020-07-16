@@ -1,35 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on TzChat</title>
-    <link>https://staging.tzchat.org/posts/</link>
-    <description>Recent content in Posts on TzChat</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 24 Apr 2020 11:30:24 -0500</lastBuildDate>
-    
-	<atom:link href="https://staging.tzchat.org/posts/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Tezos Rooms Upgrade</title>
-      <link>https://staging.tzchat.org/posts/upgrade-room/</link>
-      <pubDate>Fri, 24 Apr 2020 11:30:24 -0500</pubDate>
-      
-      <guid>https://staging.tzchat.org/posts/upgrade-room/</guid>
-      <description>Tezos rooms upgraded at Matrix/Riot As of May, 2020, several Tezos rooms at Matrix/Riot are being replaced with new versions (at the same addresses as before) that use the latest room protocol.
-TL;DR: If you visit an old Tezos room and see a message about &amp;ldquo;This room has been replaced and is no longer active&amp;rdquo;, click the link that says &amp;ldquo;The conversation continues here&amp;rdquo; to get to the new room.</description>
-    </item>
-    
-    <item>
-      <title>TzChat.org goes live</title>
-      <link>https://staging.tzchat.org/posts/tzchat-goes-live/</link>
-      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://staging.tzchat.org/posts/tzchat-goes-live/</guid>
-      <description>The Riot/Matrix services for tzchat.org accounts are now available for friendly users. The services are still being configured and tuned and so there may be rough edges, but tzchat.org accounts created now should remain indefinitely.
-One quirk is that the entry pages refer to &amp;ldquo;tezos.modular.im&amp;rdquo; rather that &amp;ldquo;tzchat.org&amp;rdquo;. Our service is hosted by modular.im and tezos.modular.im is the actual &amp;ldquo;homeserver&amp;rdquo; host for tzchat.org accounts. We are working to change the pages to hide that internal name.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on TzChat</title><link>https://staging.tzchat.org/posts/</link><description>Recent content in Posts on TzChat</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 24 Apr 2020 11:30:24 -0500</lastBuildDate><atom:link href="https://staging.tzchat.org/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Tezos Rooms Upgrade</title><link>https://staging.tzchat.org/posts/upgrade-room/</link><pubDate>Fri, 24 Apr 2020 11:30:24 -0500</pubDate><guid>https://staging.tzchat.org/posts/upgrade-room/</guid><description>Tezos rooms upgraded at Matrix/Riot As of May, 2020, several Tezos rooms at Matrix/Riot are being replaced with new versions (at the same addresses as before) that use the latest room protocol.
+TL;DR: If you visit an old Tezos room and see a message about &amp;ldquo;This room has been replaced and is no longer active&amp;rdquo;, click the link that says &amp;ldquo;The conversation continues here&amp;rdquo; to get to the new room.</description></item><item><title>TzChat.org goes live</title><link>https://staging.tzchat.org/posts/tzchat-goes-live/</link><pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate><guid>https://staging.tzchat.org/posts/tzchat-goes-live/</guid><description>The Riot/Matrix services for tzchat.org accounts are now available for friendly users. The services are still being configured and tuned and so there may be rough edges, but tzchat.org accounts created now should remain indefinitely.
+One quirk is that the entry pages refer to &amp;ldquo;tezos.modular.im&amp;rdquo; rather that &amp;ldquo;tzchat.org&amp;rdquo;. Our service is hosted by modular.im and tezos.modular.im is the actual &amp;ldquo;homeserver&amp;rdquo; host for tzchat.org accounts. We are working to change the pages to hide that internal name.</description></item></channel></rss>
